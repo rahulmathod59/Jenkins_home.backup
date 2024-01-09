@@ -1,0 +1,6 @@
+Starting health checks at Tue Jan 02 16:33:53 UTC 2024
+Health check results at Tue Jan 02 16:33:53 UTC 2024:
+ * disk-space: Result{isHealthy=false, message=Only 0.824 Gb free on slave2node.js, duration=0, timestamp=2024-01-02T16:33:53.569Z}
+ * plugins: Result{isHealthy=true, message=No failed plugins, duration=0, timestamp=2024-01-02T16:33:53.569Z}
+ * temporary-space: Result{isHealthy=false, message=Only 0.824 Gb free on slave2node.js, duration=0, timestamp=2024-01-02T16:33:53.569Z}
+ * thread-deadlock: Result{isHealthy=true, duration=2, timestamp=2024-01-02T16:33:53.572Z}

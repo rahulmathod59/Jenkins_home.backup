@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.jenkins.plugins</groupId>
+  <artifactId>aws-secrets-manager-credentials-provider</artifactId>
+  <version>1.214.va_0a_d8268d068</version>
+  <packaging>hpi</packaging>
+  <name>AWS Secrets Manager Credentials Provider</name>
+  <description>Allows the Jenkins Credentials Store to look up secrets in AWS Secrets Manager.</description>
+  <url>https://github.com/jenkinsci/aws-secrets-manager-credentials-provider-plugin</url>
+  <inceptionYear>2019</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chriskilding</id>
+      <name>Chris Kilding</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/jenkinsci/aws-secrets-manager-credentials-provider-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/aws-secrets-manager-credentials-provider-plugin.git</developerConnection>
+    <tag>a0ad8268d068c016dbdf4a68ac83a28b6cd8399c</tag>
+    <url>https://github.com/jenkinsci/aws-secrets-manager-credentials-provider-plugin</url>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>credentials</artifactId>
+      <version>1271.v54b_1c2c6388a_</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>plain-credentials</artifactId>
+      <version>143.v1b_df8b_d3b_e48</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>ssh-credentials</artifactId>
+      <version>308.ve4497b_ccd8f4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins.aws-java-sdk</groupId>
+      <artifactId>aws-java-sdk-secretsmanager</artifactId>
+      <version>1.12.529-406.vdeff15e5817d</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.jenkins</groupId>
+      <artifactId>configuration-as-code</artifactId>
+      <version>1670.v564dc8b_982d0</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.jenkins-ci.tools</groupId>
+        <artifactId>maven-hpi-plugin</artifactId>
+        <version>3.47</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

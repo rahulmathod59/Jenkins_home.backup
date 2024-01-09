@@ -1,0 +1,72 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1360.vc6700e3136f5">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2151.ve32c9d209a_3f"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2151.ve32c9d209a_3f">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3806.va_3a_6988277b_2">
+    <script>pipeline {
+    agent {
+        label &apos;slave2node.js&apos;
+    }
+
+    stages {
+        stage(&apos;Build&apos;) {
+            steps {
+                git branch: &apos;main&apos;, credentialsId: &apos;githubrahulmathod59&apos;, url: &apos;https://github.com/rahulmathod59/poc-nx-dev-ops.git&apos;
+            }
+        }
+
+        stage(&apos;Create Docker images&apos;) {
+            steps {
+                script {
+                    def commitID = sh(script: &quot;git rev-parse --short HEAD&quot;, returnStdout: true).trim()
+
+                    withDockerRegistry(credentialsId: &apos;dockerhubregistry&apos;, url: &apos;https://index.docker.io/v1/&apos;) {
+                        def portalPageImage = docker.build(&quot;rahulmm/portal-page:${commitID}&quot;, &quot;-f docker/portal.Dockerfile .&quot;)
+                        portalPageImage.push()
+
+                        def orchestrationImage = docker.build(&quot;rahulmm/orchestration:${commitID}&quot;, &quot;-f docker/orchestration.Dockerfile .&quot;)
+                        orchestrationImage.push()
+
+                        // Store image tags as environment variables for later use
+                        env.PORTAL_IMAGE_TAG = &quot;rahulmm/portal-page:${commitID}&quot;
+                        env.ORCHESTRATION_IMAGE_TAG = &quot;rahulmm/orchestration:${commitID}&quot;
+                    }
+                }
+            }
+        }
+
+        stage(&apos;Run Docker images on separate agent&apos;) {
+            agent {
+                label &apos;slave1&apos; // Specify the label of the other Jenkins agent (slave)
+            }
+            steps {
+                script {
+                    withDockerRegistry(credentialsId: &apos;dockerhubregistry&apos;, url: &apos;https://index.docker.io/v1/&apos;) {
+                        // Run portal-page Docker image on a separate agent (slave1) with custom container name
+                        sh &quot;docker run -d -p 8095:3000 --name portal-page ${env.PORTAL_IMAGE_TAG}&quot;
+
+                        // Run orchestration Docker image on a separate agent (slave1) with custom container name
+                        sh &quot;docker run -d -p 8096:4200 --name orchestration ${env.ORCHESTRATION_IMAGE_TAG}&quot;
+                    }
+                }
+            }
+        }
+    }
+}
+
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

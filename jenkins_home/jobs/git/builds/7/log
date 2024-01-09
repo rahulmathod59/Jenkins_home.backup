@@ -1,0 +1,129 @@
+Started by user [8mha:////4PB0C4nXIbK1QRSVna8GCJEejZi6m1UvcTL8cboE7R9jAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYB/dLi1CL9osSM0pzcXAMDCwAAn+zkxQAAAA==[0mrahulmm
+[8mha:////4IwVC1n8hXnzgJ62WIsf9vNy9wa1g2f/jNcXdiJ8mZXfAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Cq8Fhu97hPk0O4/dBGy+wLlAoRpNfftM0ZsC2DZUQj3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4FtusSShR9a4SlJvhSlA4liK4sgyf34wLQpWCS5ZGxMZAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYp/eT83ILSktQi/eKcxLJUozyga1WNXLOK9QGyH/WvzwAAAA==[0mslave2node.js in /home/ubuntu/jobs/workspace/git
+[8mha:////4GQKQOFc3jqTOdcwf3aS1xx8JJXsiZIONogz+3kJ/bYPAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4D6UTOAFKM/o6f1+ZsKYQt4+1zcr+wGr7lMaSn52F6PGAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Ap19du6/9odlNRMT4LbSGJSBcj7gcgJcpOwtDqqxMMwAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Build)
+[8mha:////4IYR9nFUYS+0OpsqdRV5NFg/Tug6h9fO3B9/7oLc4ai5AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+using credential githubrahulmathod59
+Fetching changes from the remote Git repository
+Checking out Revision e3173ebc941ed85f0db3bdc2ef888709742427d1 (refs/remotes/origin/main)
+Commit message: "add docker files"
+ > git rev-parse --resolve-git-dir /home/ubuntu/jobs/workspace/git/.git # timeout=10
+ > git config remote.origin.url https://github.com/VinayKempa/poc-nx-dev-ops.git # timeout=10
+Fetching upstream changes from https://github.com/VinayKempa/poc-nx-dev-ops.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials githubrahulmathod59
+ > git fetch --tags --force --progress -- https://github.com/VinayKempa/poc-nx-dev-ops.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e3173ebc941ed85f0db3bdc2ef888709742427d1 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D main # timeout=10
+ > git checkout -b main e3173ebc941ed85f0db3bdc2ef888709742427d1 # timeout=10
+ > git rev-list --no-walk e3173ebc941ed85f0db3bdc2ef888709742427d1 # timeout=10
+[8mha:////4IfOc9n48MoHWeL+1bkMR6UCjjAsWpvZAf6ZgwR6kh+FAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4EWc06M20AQ31uNXVQ6a0ymKKBBi9QPhWeownEeXYIGOAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4GXI21cH5Ttlcfihp23tWIViyNLh1mwuE8O4Lpx6fLN7AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4D9TjwAYXKqWxMexy/D5Fy59GGdh61Dw24N28ybCNxOJAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Create Docker image)
+[8mha:////4Fnr4SLc52FUf4aXbk60HIt1S2cdnQbCt+pYzHtOdiphAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] script
+[8mha:////4LWWyo1++oth0bGCL9T+eW+cGxVrVGYDV7peWLvg5P1jAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4Bf5rVH6BXiZlbuGJ4NtNGvlsQ8C+C6izdsFialafSwCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] isUnix
+[8mha:////4EVT3d3UJN+QkdpDwORHGcYblEfpnVAsHZuAXehPVzmPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDxaFw97CAAAA[0m[Pipeline] withEnv
+[8mha:////4CmMhrVenGSkSiIi3SHUmvXodmBpslD1IErXKOaHZlxFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] {
+[8mha:////4NKoR/hV+9za3e2XD3FKnt0u6pLW2rYDEgCBOkS2GfiHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] sh
++ docker build -t rahulmm/poc:latest -f docker/portal.Dockerfile .
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from portal.Dockerfile
+#1 transferring dockerfile: 422B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 142B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:20-alpine3.19
+#3 ...
+
+#4 [auth] library/node:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:20-alpine3.19
+#3 DONE 1.4s
+
+#5 [stage-1 1/4] FROM docker.io/library/node:20-alpine3.19@sha256:9e38d3d4117da74a643f67041c83914480b335c3bd44d37ccf5b5ad86cd715d1
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 16.30kB 0.0s done
+#6 DONE 0.0s
+
+#7 [source-build 2/6] WORKDIR /usr/src/app
+#7 CACHED
+
+#8 [source-build 3/6] COPY ../ ./
+#8 DONE 0.1s
+
+#9 [source-build 4/6] RUN npm install -g nx
+#9 7.551 
+#9 7.551 added 111 packages in 7s
+#9 7.551 
+#9 7.551 17 packages are looking for funding
+#9 7.552   run `npm fund` for details
+#9 7.553 npm notice 
+#9 7.554 npm notice New patch version of npm available! 10.2.3 -> 10.2.5
+#9 7.554 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.5>
+#9 7.554 npm notice Run `npm install -g npm@10.2.5` to update!
+#9 7.554 npm notice 
+#9 DONE 7.6s
+
+#10 [source-build 5/6] RUN npm install
+#10 15.01 npm WARN deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+#10 15.26 npm WARN deprecated domexception@4.0.0: Use your platform's native DOMException instead
+#10 26.08 npm WARN tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write
+#10 26.12 npm ERR! code ENOSPC
+#10 26.12 npm ERR! syscall write
+#10 26.12 npm ERR! errno -28
+#10 26.13 npm ERR! nospc ENOSPC: no space left on device, write
+#10 26.13 npm ERR! nospc There appears to be insufficient space on your system to finish.
+#10 26.13 npm ERR! nospc Clear up some disk space and try again.
+#10 26.14 
+#10 26.14 npm ERR! A complete log of this run can be found in: /root/.npm/_logs/2023-12-21T10_52_47_468Z-debug-0.log
+#10 ERROR: process "/bin/sh -c npm install" did not complete successfully: exit code: 228
+------
+ > [source-build 5/6] RUN npm install:
+ WARN deprecated domexception@4.0.0: Use your platform's native DOMException instead
+ tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write
+26.12 npm ERR! code ENOSPC
+26.12 npm ERR! syscall write
+26.12 npm ERR! errno -28
+26.13 npm ERR! nospc ENOSPC: no space left on device, write
+26.13 npm ERR! nospc There appears to be insufficient space on your system to finish.
+26.13 npm ERR! nospc Clear up some disk space and try again.
+26.14 
+26.14 npm ERR! A complete log of this run can be found in: /root/.npm/_logs/2023-12-21T10_52_47_468Z-debug-0.log
+------
+portal.Dockerfile:7
+--------------------
+   5 |     ENV NX_REJECT_UNKNOWN_LOCAL_CACHE 0
+   6 |     RUN npm install -g nx
+   7 | >>> RUN npm install
+   8 |     RUN npx nx build portal-page
+   9 |     
+--------------------
+ERROR: failed to solve: process "/bin/sh -c npm install" did not complete successfully: exit code: 228
+[8mha:////4OVcP3U45dtRcYzp7GIZkrCeogqBdRyVUQ1mSNOFUiziAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHhgNoTvgAAAA==[0m[Pipeline] }
+[8mha:////4Kjnp1GfDOHyDbNOVLeyVi5Lkn4z9Qvpe4/vem8pzMGdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQH+Ao9BvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4MuxCn/8oRrh4psoWEo/KAGeMJ/LQjVaEitzt9BJreNcAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrnf5todPp7sC76+AAAA[0m[Pipeline] }
+[8mha:////4K5mRpvuyah1Pn54cSvXl3A2VkKP3XtStHnEGjQfQMpTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJR0iIqWisNLzCxMU6sO8e+kFS8iK/xBywiUbHFamebeb1hmyKcKFrRGxwcps6J4Cebl5gpDjdPs+jpKjrCRN6I1swtaXNesSU2sKYoYSNhZ7DzlBxahr3s1UNVXqGtLhzzd5RQOj3CEwqZzawif2GJcLhPOhH+PH8FsITAUDZ1rrr5AK0PUAK+AAAA[0m[Pipeline] // script
+[8mha:////4Iqc5K6EYhWRmPliu+ej0GPxqw4fD55Qh+oSf9qu31hEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJR0iIqWisNLzCxMU6sO8e+kFS8iK/xBywiUbHFamebeb1hmyKcKFrRGxwcps6J4Cebl5gpDjdPs+jpKjrCRN6I1swtaXNesSU2sKYoYSNhZ7DzlBxahr3s1UNVXqGtLhzzd5RQOj3CEwqZzawif2GJcLhPOhH+PH8FsITAUDZNrrr+ALkszR2+AAAA[0m[Pipeline] }
+[8mha:////4JyJQPpBRl09nkMX8UyQ64pfL3wxHCDhTOERavuAIsMuAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrk/5NptP4rPlqG+AAAA[0m[Pipeline] // stage
+[8mha:////4CBqo6+XObe3/eEtpcmE0RrmJkC0OUvOB1j0xNKI3d59AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwA6/9Rob0AAAA=[0m[Pipeline] }
+[8mha:////4HSjxK9Dgx0FUCqFOFpiwPB/p1yXFmgu7qaFhnqG61w7AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP+ENVAr0AAAA=[0m[Pipeline] // node
+[8mha:////4HcwLkQC9Rfc6uzp53Ob4XuV/UNfYvHVZfrprFd180okAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkDC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHvgnyMr0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

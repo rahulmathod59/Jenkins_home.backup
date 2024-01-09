@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: GitHub Integration Plugin
+Specification-Version: 0.6
+Implementation-Title: GitHub Integration Plugin
+Implementation-Version: 0.6.1
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: github-pullrequest
+Short-Name: github-pullrequest
+Long-Name: GitHub Integration Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/GitHub+Integration+Plug
+ in
+Plugin-Version: 0.6.1
+Hudson-Version: 2.361.4
+Jenkins-Version: 2.361.4
+Plugin-Dependencies: github:1.34.5,workflow-api:1213.v646def1087f9,workf
+ low-multibranch:746.v05814d19c001,workflow-step-api:639.v6eca_cd8c04a_a
+ _,block-queued-job:0.2.0;resolution:=optional,branch-api:2.1071.v1a_188
+ a_562481,cloudbees-folder:6.758.vfd75d09eea_a_1,credentials:1189.vf61b_
+ a_5e2f62e,email-ext:2.96;resolution:=optional,git-client:4.2.0,git:5.0.
+ 2,github-api:1.303-417.ve35d9dd78549,job-dsl:1.81;resolution:=optional,
+ jucies:0.2.1;resolution:=optional,mailer:448.v5b_97805e3767,matrix-proj
+ ect:789.v57a_725b_63c79,scm-api:667.v8b_6e07cdc7f2,script-security:1244
+ .ve463715a_f89c,ssh-credentials:305.v8f4381501156,structs:324.va_f5d677
+ 4f3a_d;resolution:=optional,token-macro:359.vb_cde11682e0c;resolution:=
+ optional
+Plugin-Developers: Kanstantsin Shautsou:KostyaSha:
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/KostyaSha/github-integr
+ ation-plugin.git
+Plugin-ScmTag: github-integration-parent-0.6.1
+Plugin-ScmUrl: https://github.com/jenkinsci/github-integration-plugin
+Plugin-GitHash: 9ef8e549ecd4f359d535c606774c50f331f9d5bc
+Implementation-Build: 9ef8e549ecd4f359d535c606774c50f331f9d5bc
+

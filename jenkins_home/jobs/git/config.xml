@@ -1,0 +1,54 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1360.vc6700e3136f5">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2151.ve32c9d209a_3f"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2151.ve32c9d209a_3f">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers/>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3806.va_3a_6988277b_2">
+    <script>pipeline {
+    agent {
+        label &apos;slave2node.js&apos;
+    }
+
+    stages {
+        stage(&apos;Build&apos;) {
+            steps {
+                // Get code from a GitHub repository
+                git branch: &apos;main&apos;, credentialsId: &apos;githubrahulmathod59&apos;, url: &apos;https://github.com/rahulmathod59/poc-nx-dev-ops.git&apos;
+            }
+        }
+
+        stage(&apos;Create Docker image and push to docker hub&apos;) {
+            steps {
+                script {
+                    // Get the Git commit ID
+                    def commitID = sh(script: &quot;git rev-parse --short HEAD&quot;, returnStdout: true).trim()
+                    
+                    // Build Docker image with commit ID as a tag
+                    def dockerImage = docker.build(&quot;rahulmm/poc:${commitID}&quot;, &quot;-f docker/portal.Dockerfile .&quot;)
+                    
+                    // Push Docker image to Docker Hub
+                    dockerImage.push()
+                }
+            }
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: AWS Secrets Manager Credentials Provider
+Specification-Version: 0.0
+Implementation-Title: AWS Secrets Manager Credentials Provider
+Implementation-Version: 1.214.va_0a_d8268d068
+Group-Id: io.jenkins.plugins
+Artifact-Id: aws-secrets-manager-credentials-provider
+Short-Name: aws-secrets-manager-credentials-provider
+Long-Name: AWS Secrets Manager Credentials Provider
+Url: https://github.com/jenkinsci/aws-secrets-manager-credentials-provid
+ er-plugin
+Plugin-Version: 1.214.va_0a_d8268d068
+Hudson-Version: 2.387.3
+Jenkins-Version: 2.387.3
+Plugin-Dependencies: configuration-as-code:1670.v564dc8b_982d0;resolutio
+ n:=optional,aws-java-sdk-secretsmanager:1.12.529-406.vdeff15e5817d,cred
+ entials:1271.v54b_1c2c6388a_,plain-credentials:143.v1b_df8b_d3b_e48,ssh
+ -credentials:308.ve4497b_ccd8f4
+Plugin-Developers: Chris Kilding:chriskilding:
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: https://github.com/jenkinsci/aws-secrets-manager-c
+ redentials-provider-plugin.git
+Plugin-ScmTag: a0ad8268d068c016dbdf4a68ac83a28b6cd8399c
+Plugin-ScmUrl: https://github.com/jenkinsci/aws-secrets-manager-credenti
+ als-provider-plugin
+

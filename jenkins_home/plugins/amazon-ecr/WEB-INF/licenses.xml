@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<l:dependencies xmlns:l='licenses' groupId='com.cloudbees.jenkins.plugins' artifactId='amazon-ecr' version='1.114.vfd22430621f5'><l:dependency name='Amazon ECR plugin' groupId='com.cloudbees.jenkins.plugins' artifactId='amazon-ecr' version='1.114.vfd22430621f5' url='https://github.com/jenkinsci/amazon-ecr-plugin'><l:description>Integrate Jenkins with Amazon EC2 Container Registry (ECR)</l:description><l:license name='MIT License' url='http://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>

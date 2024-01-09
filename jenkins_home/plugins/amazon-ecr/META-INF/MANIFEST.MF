@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Amazon ECR plugin
+Specification-Version: 0.0
+Implementation-Title: Amazon ECR plugin
+Implementation-Version: 1.114.vfd22430621f5
+Group-Id: com.cloudbees.jenkins.plugins
+Short-Name: amazon-ecr
+Long-Name: Amazon ECR plugin
+Url: https://github.com/jenkinsci/amazon-ecr-plugin
+Plugin-Version: 1.114.vfd22430621f5
+Hudson-Version: 2.361.4
+Jenkins-Version: 2.361.4
+Plugin-Dependencies: aws-java-sdk-ecr:1.12.287-357.vf82d85a_6eefd,aws-cr
+ edentials:191.vcb_f183ce58b_9,credentials:1189.vf61b_a_5e2f62e,docker-c
+ ommons:1.21
+Plugin-Developers: Tobias Gruetzmacher:TobiX:tobias-git@23.gs
+Plugin-License-Name: MIT License
+Plugin-License-Url: http://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/amazon-ecr-plugin
+

@@ -1,0 +1,24 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-12-31 17:16:10.317 UTC</timestamp>
+  <md5sum>2e26f6d27d36f6522f087903c8fc22a5</md5sum>
+  <fileName>Credential id=slave1 name=ubuntu (slave1)</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1309.v8835d63eb_d8a_">
+      <timestamp>1704188388679</timestamp>
+      <nodeName>slave2node.js</nodeName>
+      <timestamp0>1704042970295</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1309.v8835d63eb_d8a_">
+      <timestamp>1704188389116</timestamp>
+      <nodeName>ecr</nodeName>
+      <timestamp0>1704042970300</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1309.v8835d63eb_d8a_">
+      <timestamp>1704213149235</timestamp>
+      <nodeName>slave1</nodeName>
+      <timestamp0>1704211589231</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>
